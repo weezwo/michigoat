@@ -1,0 +1,60 @@
+body {
+  font-family: Poppins;
+  font-weight: 200;
+  font-size: 2em;
+  background-color: #242424;
+  color: #e8e8e6;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: Oldenburg, regular;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+  margin: 0;
+  margin-top: 50vh;
+  /* text-align: center; */
+}
+
+h2 {
+    font-weight: 400;
+    margin: 0;
+}
+
+a {
+  color: #dbd758;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#content-container {
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content-card {
+  box-sizing: border-box;
+  scroll-snap-align: start;
+  height: 100vh;
+  width: 100vw;
+  padding: 10vh 10vw;
+}
+
+#hero {
+  /* text-align: center; */
+}
+
+.content-card:first-child {
+  background-image: url("goats.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.center {
+  text-align: center;
+}
