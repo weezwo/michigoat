@@ -62,3 +62,9 @@ a:hover {
 .center {
   text-align: center;
 }
+
+@media (max-width: 500px) {
+  body {
+    font-size: 1em;
+   }
+ }
