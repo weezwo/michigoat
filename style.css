@@ -13,6 +13,7 @@ img {
 }
 
 img.left {
+  padding-top: inherit;
   float: left;
 }
 
